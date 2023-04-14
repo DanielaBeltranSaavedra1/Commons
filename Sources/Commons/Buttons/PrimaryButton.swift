@@ -9,6 +9,9 @@ import Theme
 
 public struct PrimaryButtonStyle: ButtonStyle {
     var isDisabled: Bool
+    public init(isDisabled: Bool) {
+        self.isDisabled = isDisabled
+    }
     public func makeBody(configuration: Self.Configuration) -> some View {
         return configuration.label
             .padding()
