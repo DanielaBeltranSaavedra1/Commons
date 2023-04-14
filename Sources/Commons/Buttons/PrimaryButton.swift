@@ -45,7 +45,6 @@ public struct PrimaryButton<T: View>: View {
                     .clipShape(RoundedRectangle(cornerRadius: 16 , style: .circular))
                     .buttonStyle(PrimaryButtonStyle(isDisabled: state.isDisabledOrLoading()))
                     .disabled(state.isDisabledOrLoading())
-                    .overlay(Text("b"))
             }else {
                 NavigationLink(destination: action.destination, isActive: $isActive) {
                     Button(state.getText(text), action: {
