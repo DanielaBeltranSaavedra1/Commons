@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "theme",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DanielaBeltranSaavedra1/Theme.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ba36a3d1b3450f24d9841e8bd9776180a964eea4"
+      }
+    }
+  ],
+  "version" : 2
+}
